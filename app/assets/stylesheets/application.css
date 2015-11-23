@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-/* navbar and footer */
+ /*navbar and footer */
 
 
 
@@ -23,21 +23,13 @@ body {
    background-color:#6441A5;
 }
 
-.navbar-toggle .icon-bar {
-  background-color: white;
-  font-weight: bolder;
-}
 
-.icon-bar {
-  font-size: 10px;
-  border-width: thick;
-}
 
 /* nav toggle text */
 .navbar a {
   color: white;
   font-size: 1em;
-  background-color: #6441A;
+  background-color: #6441A5;
   font-weight: bold;
 }
 
@@ -55,25 +47,7 @@ body {
   margin-top: 10px;
 }
 
-#right {
-  margin-left: 8em;
-  word-spacing: 1em;
-}
 
-#middle {
-  margin-left: 8em;
-  word-spacing: 1em;
-}
-
-#left {
-  margin-left: 8em;
-  margin-bottom: 10px;
-  word-spacing: 1em;
-}
-
-.row {
-  padding-bottom: 10px;
-}
 
 .navbar-fixed-bottom {
   padding: 2vh 0;

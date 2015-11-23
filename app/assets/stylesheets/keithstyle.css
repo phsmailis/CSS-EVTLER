@@ -3,14 +3,12 @@
   background-size:100% auto;
   color: green;
 }*/
-.main-body{
+.evmain-body{
     background: url('/assets/selfie.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% auto;
-    margin-top: 12%;
-    width: 100%
+    background-size: cover;
 }
 
 /*#bg{
