@@ -3,15 +3,120 @@
   background-size:100% auto;
   color: green;
 }*/
+#w #pagebody {
+  position: relative;
+  left: 0;
+  /*max-width: 640px;
+  min-width: 320px;*/
+  z-index: 99999;
+}
+#toolbarnav{
+  background-color: #6441A5;
+}
+
+#toolbarnav #logo {
+  width: 150px;
+  margin: 1vh auto;
+}
+#logo img{
+  width: 100%;
+}
+#w #navmenu {
+  background: #cc99ff;
+  height: 100%;
+  display: block;
+  position: fixed;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  color: white;
+}
+#w #pagebody #content {
+  height: 100%;
+  z-index: 9999;
+}
+
+#w #pagebody header#toolbarnav {
+  display: block;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+  background: #6441A5 top left no-repeat;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  height: 50px;
+  width: 100%;
+}
 .evmain-body{
-    background: url('/assets/selfie.jpg') no-repeat center center fixed;
+    background: url('/assets/miamipurple.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #cc99ff;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+#w #navmenu ul {
+  list-style: none;
+  background: indigo;
+  height: 100%;
+}
+#w #navmenu ul li {
+  display: block;
+}
+#w #navmenu ul li a {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid white;
+  padding: 24px 11px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 1px #222;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+#w #navmenu ul li a:hover {
+  color: #cc99ff;
+  text-decoration: none;
+}
+/*#w #navmenu ul li a::after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-right: 3px solid #d0d0d8;
+  border-top: 3px solid #d0d0d8;
+  position: absolute;
+  right: 30px;
+  top: 45%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}*/
+#w #navmenu ul li a:hover::after {
+  border-color: #cad0e6;
 }
 
 /*#bg{
     background:url('../img/con_bg4.png') no-repeat center center;
     height: 500px;
 }*/
+
+.navbar-fixed-bottom {
+  padding: 2vh 0;
+  text-align: center;
+  color: white;
+  font-size: .5em;
+}

@@ -17,8 +17,7 @@
 
 
 
-body {
-}
+
  .navbar {
    background-color:#6441A5;
 }
@@ -40,18 +39,10 @@ body {
 
 .fa-bars {
   color: white;
+  float: left;
 }
 
 .logo {
-  margin-left: 13em;
-  margin-top: 10px;
-}
-
-
-
-.navbar-fixed-bottom {
-  padding: 2vh 0;
-  text-align: center;
-  color: white;
-  font-size: .5em;
+  margin-left: 10em;
+  margin-top: 18px;
 }
