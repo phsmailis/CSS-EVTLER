@@ -1,0 +1,19 @@
+/*.main-body{
+  background-image: url('/assets/miamipurple.jpg');
+  background-size:100% auto;
+  color: green;
+}*/
+.main-body{
+    background: url('/assets/selfie.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    margin-top: 12%;
+    width: 100%
+}
+
+/*#bg{
+    background:url('../img/con_bg4.png') no-repeat center center;
+    height: 500px;
+}*/

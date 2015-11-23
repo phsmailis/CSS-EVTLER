@@ -15,8 +15,9 @@
  */
 /* navbar and footer */
 
+
+
 body {
-  padding: 100px;
 }
  .navbar {
    background-color:#6441A5;
@@ -74,14 +75,9 @@ body {
   padding-bottom: 10px;
 }
 
-.fa-commenting {
+.navbar-fixed-bottom {
+  padding: 2vh 0;
+  text-align: center;
   color: white;
-}
-
-.fa-users {
-  color: white;
-}
-
-.fa-list {
-  color:white;
+  font-size: .5em;
 }
