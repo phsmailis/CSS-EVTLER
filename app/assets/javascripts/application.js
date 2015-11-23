@@ -31,10 +31,10 @@ $(document).ready(function(){
 		$(function () {
 		    topbar.animate({
 		       left: "200px"
-		    }, { duration: 1200, queue: false });
+		    }, { duration: 200, queue: false });
 		    pagebody.animate({
 		       left: "200px"
-		    }, { duration: 1200, queue: false });
+		    }, { duration: 200, queue: false });
 		});
 	}
 
@@ -42,10 +42,10 @@ $(document).ready(function(){
 		var closeme = $(function() {
 	    	topbar.animate({
 	            left: "0px"
-	    	}, { duration: 180, queue: false });
+	    	}, { duration: 200, queue: false });
 	    	pagebody.animate({
 	            left: "0px"
-	    	}, { duration: 180, queue: false });
+	    	}, { duration: 200, queue: false });
 		});
 	}
 
@@ -82,3 +82,19 @@ $(document).ready(function(){
 		setTimeout(function() { content.load(linkhtmlurl, function() { /* no callback */ }) }, 1200);
 	});
 });
+
+$(function() {
+    var input = $('input[type=text]');
+
+    input.focus(function() {
+         $(this).val('');
+    }).blur(function() {
+         var el = $(this);
+
+         /* use the elements title attribute to store the
+            default text - or the new HTML5 standard of using
+            the 'data-' prefix i.e.: data-default="some default" */
+         if(el.val() == '')
+             el.val(el.attr('title'));
+    });
+ });

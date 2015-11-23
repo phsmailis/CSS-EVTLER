@@ -28,11 +28,11 @@
     <div id="navmenu">
 
     <ul>
-      <li><a href="#" class="navlink">Home</a></li>
-      <li><a href="#" class="navlink">Profile</a></li>
-      <li><a href="#new" class="navlink">About Us</a></li>
-      <li><a href="#" class="navlink">Wyncode</a></li>
-      <li><a href="#" class="navlink">Log out</a></li>
+      <li><%= link_to "Home", root_path, class: "navlink", method: :get%></li>
+      <li><%= link_to "Profile", root_path, class: "navlink", method: :get%></li>
+      <li><%= link_to "About Us", root_path, class: "navlink", method: :get%></li>
+      <li><%= link_to "Wyncode", new_user_path, class: "navlink", method: :get%></li>
+      <li><%= link_to "Log out", root_path, class: "navlink", method: :get%></li>
     </ul>
 </div>
 </div>
