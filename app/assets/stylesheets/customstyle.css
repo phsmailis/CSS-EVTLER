@@ -105,9 +105,9 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }*/
-#w #navmenu ul li a:hover::after {
+/*#w #navmenu ul li a:hover::after {
   border-color: #cad0e6;
-}
+}*/
 
 /*#bg{
     background:url('../img/con_bg4.png') no-repeat center center;
@@ -119,4 +119,8 @@
   text-align: center;
   color: white;
   font-size: .5em;
+}
+.evicon>a:hover{
+  color: indigo !important;
+  text-decoration: none;
 }

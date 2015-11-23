@@ -37,9 +37,15 @@
   background-color: #6441A5;
 }
 
-.fa-bars {
+span>.fa-bars {
+  padding-top: 1vh;
   color: white;
   float: left;
+  font-size: 2.5em;
+}
+
+span>.fa-bars:hover {
+  color: indigo;
 }
 
 .logo {
